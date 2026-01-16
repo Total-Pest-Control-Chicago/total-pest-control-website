@@ -1,0 +1,130 @@
+.simpleTitleTextDividerLight {
+  /* border: 3px solid red;*/
+   width: 100%;
+   height: auto;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /*padding: 10px 10px 10px 10px;*/
+ }
+ .insideSimpleTitleTextDividerLight {
+   /*border: 3px solid rgb(11, 5, 47);*/
+   margin: 0 auto;
+   width: 75%;
+   min-width: 375px;
+ }
+ 
+ #simpleTitleTextDividerLight {
+   margin: 0 auto;
+   /*border: 3px solid rgb(0, 255, 68);*/
+   text-align: center;
+   width: auto;
+   float: center;
+   box-sizing: border-box;
+   /*padding: 0px 50px 20px 20px;*/
+ }
+ 
+ #descriptedTextDividerLight {
+   margin: 0 auto;
+   /*border: 3px solid rgb(0, 72, 255);*/
+   /*background-color: black;*/
+   text-align: center;
+   width: auto;
+   float: center;
+   box-sizing: border-box;
+ }
+ 
+h1.black-text {
+    color: black;
+    font-size: max(2.2em, 4.4vw);
+}
+
+h1.red-text {
+    color: red;
+    font-size: max(2.2em, 4.4vw);
+}
+
+h1.green-text {
+  color:rgb(6, 219, 80);
+  font-size: max(2.2em, 4.4vw);
+  font-weight: normal;
+}
+
+h1.white-text {
+  color: rgb(255, 255, 255);
+  font-size: max(2.2em, 4.4vw);
+}
+
+h2.black-text {
+  color: rgb(0, 0, 0);
+  font-size: max(1.5em, 3vw);
+  font-weight: normal;
+}
+
+h2.red-text {
+  color: rgb(255, 0, 0);
+  font-size: max(1.5em, 3vw);
+  font-weight: normal;
+}
+
+h2.green-text {
+  color: rgb(6, 219, 80);
+  font-size: max(1.5em, 3vw);
+}
+
+h2.white-text {
+  color: rgb(255, 255, 255);
+  font-size: max(1.5em, 3vw);
+  font-weight: normal;
+}
+
+h3.black-text {
+  color: rgb(0, 0, 0);
+  font-size: max(1em, 2vw);
+  font-weight: normal;
+}
+
+h3.red-text {
+  color: rgb(255, 0, 0);
+  font-size: max(1em, 2vw);
+  font-weight: normal;
+}
+
+h3.gren-text {
+  color: rgb(6, 219, 80);
+  font-size: max(1em, 2vw);
+  font-weight: normal;
+}
+
+h3.white-text {
+  color: rgb(255, 255, 255);
+  font-size: max(1em, 2vw);
+  font-weight: normal;
+}
+
+h4.black-text {
+  color: rgb(0, 0, 0);
+  font-size: max(.8em, 1.6vw);
+}
+
+h4.red-text {
+  color: rgb(255, 0, 0);
+  font-size: max(.8em, 1.6vw);
+}
+
+h4.green-text {
+  color: rgb(6, 219, 80);
+  font-size: max(.8em, 1.6vw);
+}
+
+h4.white-text {
+  color: rgb(255, 255, 255);
+  font-size: max(.8em, 1.6vw);
+}
+
+h5.white-text {
+  color: rgb(255, 255, 255);
+  font-size: max(.6em, 1.2vw);
+  font-weight: normal;
+}

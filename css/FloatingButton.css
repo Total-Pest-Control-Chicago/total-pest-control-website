@@ -1,0 +1,39 @@
+
+.floatingButton {
+  /*border: 3px solid red;*/
+  width: 74px; /* Set the width of the container */
+  background-color: rgb(28, 177, 25);
+  border-radius: 0px 10px 10px 0px;
+  position: fixed;
+  bottom: 50px;
+  left: 0px;
+  z-index: 999; /* Adjust the z-index as needed */
+}
+
+.floatLink1 {
+  width: 60PX;
+  border: 3px solid rgb(42, 42, 42);
+  background-color: rgb(61, 61, 61);
+  color: rgb(255, 255, 255);
+  border-radius: 5px 5px 5px 5px;
+  line-height: 115%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  margin: 5px 2px 5px 2px;
+}
+
+.floatLink2 {
+  width: 60PX;
+  border: 3px solid rgb(58, 58, 58);
+  background-color: rgb(61, 61, 61);
+  color: rgb(255, 255, 255);
+  border-radius: 5px 5px 5px 5px;
+  line-height: 115%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  margin: 5px 2px 5px 2px;
+}

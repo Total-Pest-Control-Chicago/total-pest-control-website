@@ -1,0 +1,21 @@
+.simplePhotoDividerDark {
+ border: 10px solid rgb(4, 135, 26);
+  width: auto;
+  height: auto;
+  background-color: rgb(4, 135, 26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*padding: 10px 10px 10px 10px;*/
+}
+#centerPhotoDividerDark {
+  /*border: 3px solid rgb(1, 255, 141);*/
+  margin: 0 auto;
+  /*width: 50%;*/
+  min-width: 320px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

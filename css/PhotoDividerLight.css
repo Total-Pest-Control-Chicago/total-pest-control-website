@@ -1,0 +1,29 @@
+.simplePhotoDividerLight {
+  border: 10px solid rgb(255, 255, 255);
+   width: auto;
+   height: auto;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /*padding: 10px 10px 10px 10px;*/
+ }
+ #centerPhotoDividerLight {
+   /*border: 3px solid rgb(1, 255, 141);*/
+   margin: 0 auto;
+   /*width: 50%;*/
+   min-width: 320px;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+/*h2 {
+  /*border: 3px solid red;*/
+  /*min-width: 200px;
+  font-size: 1.3rem;
+  color: red;
+  padding: 0px 20px 20px 0px;
+}

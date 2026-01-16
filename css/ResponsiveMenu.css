@@ -1,0 +1,110 @@
+body {
+  font-family:'Times New Roman', Times, serif
+ }
+ 
+ /** {
+  /*box-sizing: border-box;*/
+  /*margin: 0;
+  padding: 0;
+}*/
+.no-wrap {
+  white-space: nowrap;       /* Prevents the text from wrapping */
+  overflow: hidden;          /* Hides the overflow text */
+  text-overflow: ellipsis;   /* Adds ellipsis (...) if text overflows */
+}
+
+.centered-text {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: max(.7em, 1.3vw);
+  /*font-size: 1.6vw;*/
+  /*font-weight: bold;*/
+  /*text-transform: uppercase;*/
+}
+
+.respNavBar {
+  /*border: 3px solid red;*/
+  background-color: rgb(4, 135, 26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.phone {
+  /*border: 3px solid red;*/
+  min-width: 100px;
+  font-size: max(1em, 1.4vw);
+  /*font-size: 1.5rem;*/
+  color: rgb(255, 255, 255);
+  padding: 0px 25px 10px 0px;
+}
+
+.navBar {
+  /*padding-right: 10px;*/
+  cursor: pointer;
+}
+
+.navBar .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  /*border: 3px solid red;*/
+  position: fixed;
+  width: 70%;
+  top: 5rem;
+  /*left: 18px;*/
+  background-color: rgb(4, 135, 26);
+}
+
+.navbar a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar a:hover {
+  background-color: rgb(51, 51, 51);
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (min-width: 975px) {
+  .navbar {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 20px;
+    background: none;
+  }
+
+  .navbar a {
+    display: inline-block;
+    padding: 15px 15px;
+  }
+
+  .navBar {
+    display: none;
+  }
+}
+
+#logo {
+  /*border: 2px solid #333;*/
+  width: 30%;
+  max-width: 175px;
+  min-width: 90px;
+  height: auto;
+  margin: 0px 0px 20px 20px;
+}
